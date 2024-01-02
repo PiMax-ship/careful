@@ -1,0 +1,17 @@
+@media screen and (max-width: 760px){
+    
+    header{
+        display: flex;
+        padding: 10px;
+        padding-left: 30px;
+        margin: 0;
+        border: 0;
+        align-items: center;
+        justify-content: none;
+    }
+
+    header nav a {
+        padding-right: 15px;
+        
+    }
+}

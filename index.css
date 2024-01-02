@@ -1,0 +1,183 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #263138;
+}
+
+header{
+    background-color: #35d9cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header nav a {
+    color: white;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    /* topo, direita, baixo, esquerda */
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+h1,
+h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafos {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background-color: #263138;
+    /* vertical, horizontal */
+    padding: 16px 32px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.botao-transparente {
+    background-color: transparent;
+    color: #263138;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+}
+
+#absolute {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+z-index: -10;
+}
+
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#clinica li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#farmacia {
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#farmacia img {
+    margin: 64px auto;
+}
+
+#farmacia .paragrafos {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+   
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #35d9cc;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafos {
+    border-right: 1px solid #35d9cc;
+    border-bottom: 1px solid #35d9cc;
+    border-left: 1px solid #35d9cc;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}
+
+footer {
+    background-color: #35d9cb3b;
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a {
+    color: black;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+footer p {
+    margin-bottom: 16px;
+}
+
+footer p a {
+    color: #760b87 ;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#pedrinho {
+    position: absolute;
+    background-color: #263138;
+    padding: 33px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.pedrocas a {
+    color: white;
+    text-decoration: none;
+}
+
+
