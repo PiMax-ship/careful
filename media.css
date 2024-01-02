@@ -2,7 +2,7 @@
     
     header{
         display: flex;
-        padding: 200px;
+        padding: 10px;
         padding-left: 30px;
         margin: 0;
         border: 0;
@@ -13,5 +13,33 @@
     header nav a {
         padding-right: 15px;
         
+    }
+
+    #inicio{
+        flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 50px;
+    }
+    
+    #img-mobile {
+        width: 350px;
+        height: 350px;
+    }
+
+    #absolute{
+       display: none;
+    }
+
+    #clinica {
+        flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .lista-mobile {
+       padding: 0;
+       margin: 0;
+       border: 0;
     }
 }
